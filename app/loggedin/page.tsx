@@ -1,6 +1,6 @@
-import { signInAction } from "@/actions/auth-action";
 import Tasks from "@/components/todovex/tasks";
-import { Button } from "@/components/ui/button";
+import UserProfile from "@/components/todovex/user-profile";
+import { User } from "lucide-react";
 
 export default function LoggedIn() {
   return (
@@ -8,6 +8,7 @@ export default function LoggedIn() {
       <h1>Todovex</h1>
 
       <p>LoggedIn</p>
+      <UserProfile />
       <Tasks />
     </div>
   );
