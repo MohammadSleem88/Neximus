@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Todovex.ai",
+  title: "NeximusAI",
   description:
     "An Open Source app organizes your tasks and predicts whats next using Ai",
 };
