@@ -1,4 +1,4 @@
-import { Session } from "next-auth";
+import { useSession } from "next-auth/react";
 import Providers from "../providers";
 import { auth } from "@/auth";
 
