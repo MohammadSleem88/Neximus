@@ -1,8 +1,9 @@
 import MobileNav from "@/components/nav/mobile-nav";
 import SideBar from "@/components/nav/side-bar";
-import Tasks from "@/components/neximusdocs/tasks";
+import Tasks from "@/components/todos/task";
 import UserProfile from "@/components/nav/user-profile";
 import { User } from "lucide-react";
+import TodoList from "@/components/todos/todo-list";
 
 export default function LoggedIn() {
   return (
@@ -10,9 +11,7 @@ export default function LoggedIn() {
       <SideBar />
       <div className="flex flex-col">
         <MobileNav />
-        <main className="flex flex-1 flex-col gap-4 p-4 lg:px-8">
-          <Tasks />
-        </main>
+        <TodoList />
       </div>
     </div>
   );
