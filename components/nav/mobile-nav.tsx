@@ -55,7 +55,7 @@ export default function MobileNav({
           <div className="mt-auto">
             <Card>
               <CardHeader>
-                <CardTitle>Upgrade to Pro</CardTitle>
+                <CardTitle>Google Drive</CardTitle>
                 <CardDescription>
                   Unlock all features and get unlimited access to our support
                   team.
@@ -81,7 +81,7 @@ export default function MobileNav({
         <div className="place-content-center w-full flex-1">
           <SearchForm />
         </div>
-        <div className="place-content-center w-12 h-12 lg:w-16 lg:h-20">
+        <div className="place-content-center w-10 h-10 lg:w-10 lg:h-10">
           <Image alt="logo" src={Logo} />
         </div>
       </div>
