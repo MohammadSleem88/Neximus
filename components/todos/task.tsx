@@ -61,13 +61,16 @@ export default function Task({
                     </div>
                     <div className="flex items-center justify-center gap-1">
                       <Calendar className="w-3 h-3 text-primary" />
-                      <p className="text-xs text-primary"></p>
+                      <p className="text-xs text-primary">
+                        {moment(dueDate).format("LL")}
+                      </p>
                     </div>
                   </div>
                 )}
               </div>
             </DialogTrigger>
           </div>
+          {!isSubTodo(data) && <AddTaskDialog data={data} />}
         </div>
       </Dialog>
     </div>
