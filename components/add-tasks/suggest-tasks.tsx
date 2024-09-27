@@ -69,7 +69,7 @@ export default function SuggestMissingTasks({
             <Loader className="h-5 w-5 text-primary" />
           </div>
         ) : (
-          "Suggest Missing Tasks (AI) 💖"
+          "Suggest Missing Tasks (AI) ✨"
         )}
       </Button>
     </>
