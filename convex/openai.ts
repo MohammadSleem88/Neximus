@@ -41,7 +41,7 @@ export const suggestMissingItemsWithAi = action({
       response_format: {
         type: "json_object",
       },
-      model: "gpt-3.5-turbo",
+      model: "gpt-4o-mini",
     });
 
     console.log(response.choices[0]);
